@@ -262,11 +262,15 @@ class ActorCollisonHandler {
   }
 }
 class ArrayIterator{
-  public constructor(){
-    
+  public constructor(arr){
+    let index = 0;
+    return {value: index, done: true};
   }
 }
-
+interface ActorCollisonHandler(){
+  this.applyAction("snake" + "food");
+  this.applyAction("snake" + "snake");
+}
 
 
 let Gamecontroller = HumanPlayer + AvoidWallsPlayer;
