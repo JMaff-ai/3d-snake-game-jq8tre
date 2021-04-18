@@ -157,6 +157,9 @@ class Player extends AvoidWallsPlayer {
   public makeTurn() {
     return SnakeController;
   }
+  public isActive() {
+    return SnakeController;
+  }
 }
 const View = Symbol('View');
 
