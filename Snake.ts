@@ -173,6 +173,9 @@ view: any;
     let view = WorldModel;
     return Date();
   }
+  public dispose() {
+    let document,body,removeChild{CanvasView};
+  }
 }
 interface InputHandler{Player: any} {
   const madeLeftMove = true;
@@ -272,6 +275,9 @@ interface ActorCollisonHandler(){
   this.applyAction("snake" + "snake");
 }
 
+interface IView {
+  dispose();
+}
 
 let Gamecontroller = HumanPlayer + AvoidWallsPlayer;
 return GameController;
