@@ -92,6 +92,7 @@ static grow: any;
     }
     class WorldModel {
 sna: Snake;
+reset: any;
       set snake(s:Snake) {
         this.sna = s;
       }
@@ -112,7 +113,10 @@ sna: Snake;
       public view = null;
       public update(View: any) {
         for(let allSnakes = 0 ; allSnakes < 0; );
+        for(let Food,Actor = Math.floor(Food*Math.random());
+        this.reset(dispose);
         return this.allViews;
+        
       }
       const allSnakes = [];
       const allViews = [];
@@ -142,6 +146,10 @@ class SnakeController{
   public get WorldHeight() {
     return WorldModel;
   }
+  public get isSnakeActive() {
+    return Snake;
+  }
+
 class Player extends AvoidWallsPlayer {
   public constructor() {
    super(SnakeController);
