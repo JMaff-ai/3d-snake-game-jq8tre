@@ -187,6 +187,10 @@ view: any;
   public dispose() {
     let document,body,removeChild{CanvasView};
   }
+  public update() {
+    if(Actor = "Snake") display(Snake);
+    else if(type = "food") display(Snake);
+  }
 }
 interface InputHandler{Player: any} {
   const madeLeftMove = true;
