@@ -315,8 +315,11 @@ class WorldLoader{
 
 class MainMenuController {
   public constructor(Game){
-    
+    public playGameButton: "button";
+    public humanPlayersInput: "input";
+    public aiPlayersInput: "input";
   }
+  let document.createTextNode("Start Game!")
 }
 
 let Gamecontroller = HumanPlayer + AvoidWallsPlayer;
