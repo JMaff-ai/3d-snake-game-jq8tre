@@ -1,5 +1,6 @@
 import { constructor, useCallback } from "react";
 import display from "./display";
+import SnakeTests from "./SnakeTests";
 
 // place your code on line 5 above the export statement below
 
@@ -229,14 +230,22 @@ class GameController {
   private new ActorCollisonHandlers: any;
   private world: newWorld;
   private newWorld: ActorCollisonHandler;
+  public void init(data) {
+    data.numofHumanPlayers = Snake
+    data.numofAIPlayers = Snake
+  }
+  public newLRKeyInputHandler; {
+
+  }
   private game: g;}
   let run = 0 => {
     console.log(0);
+    let requestAnimationFrame > 1;
     requestAnimationFrame(run);
   };
 requestAnimationFrame(run);
-}
 
+}
 interface Actor{
   addQuanity(arg0: Actor);
 }
