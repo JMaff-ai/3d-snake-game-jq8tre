@@ -331,7 +331,12 @@ class game {
   public constructor(){
     public contextSwitchesMaps: "Game";
     public controllersMaps: "Start";
+    public Controllers map: "Start";
+    public GameController: "Game";
+    public currentContext: "Start";
+    public switchContext(data): "Start";
   }
+  this.init(currentContext);
 }
 
 let Gamecontroller = HumanPlayer + AvoidWallsPlayer;
