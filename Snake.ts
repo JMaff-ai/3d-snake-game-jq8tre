@@ -323,6 +323,8 @@ class MainMenuController {
   
   let document.createTextNode("Start Game!");
   this.switchContext.bind(this);
+  this.append(body);
+  this.document.body.removeChild = .value
 }
 
 let Gamecontroller = HumanPlayer + AvoidWallsPlayer;
