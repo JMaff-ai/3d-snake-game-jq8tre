@@ -327,6 +327,13 @@ class MainMenuController {
   this.document.body.removeChild = .value
 }
 
+class game {
+  public constructor(){
+    public contextSwitchesMaps: "Game";
+    public controllersMaps: "Start";
+  }
+}
+
 let Gamecontroller = HumanPlayer + AvoidWallsPlayer;
 return GameController;
 export: any default Snake;
