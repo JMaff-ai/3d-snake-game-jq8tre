@@ -318,8 +318,11 @@ class MainMenuController {
     public playGameButton: "button";
     public humanPlayersInput: "input";
     public aiPlayersInput: "input";
+    public appendChild(playGameButton)
   }
-  let document.createTextNode("Start Game!")
+  
+  let document.createTextNode("Start Game!");
+  this.switchContext.bind(this);
 }
 
 let Gamecontroller = HumanPlayer + AvoidWallsPlayer;
