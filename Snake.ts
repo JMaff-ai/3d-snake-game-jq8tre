@@ -307,6 +307,18 @@ interface IView {
   dispose();
 }
 
+class WorldLoader{
+  public constructor(){
+    public readData(levelData,WorldModel);
+  }
+}
+
+class MainMenuController {
+  public constructor(Game){
+    
+  }
+}
+
 let Gamecontroller = HumanPlayer + AvoidWallsPlayer;
 return GameController;
 export: any default Snake;
