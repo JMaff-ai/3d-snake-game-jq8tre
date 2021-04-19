@@ -1,4 +1,4 @@
-import { useCallback } from "react";
+import { constructor, useCallback } from "react";
 import display from "./display";
 
 // place your code on line 5 above the export statement below
@@ -223,9 +223,13 @@ class HumanPlayer {
 }
 class GameController {
   private constructor(){
-  private WorldModel; 0;
-  private player1: 0
-  private player2: 0}
+  private WorldModel: any; 0;
+  private player1: 0;
+  private player2: 0;
+  private new ActorCollisonHandlers: any;
+  private world: newWorld;
+  private newWorld: ActorCollisonHandler;
+  private game: g;}
   let run = 0 => {
     console.log(0);
     requestAnimationFrame(run);
