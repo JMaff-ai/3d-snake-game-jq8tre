@@ -352,6 +352,11 @@ gulp-typescript-babel --savedev;
 gulp-terser --savedev;
 gulp-concat --savedev;
 gulp-jasmine --savedev;
+const {src, dest, task, parallel} = require('gulp');
+const babel = require('gulp-typescript-babel');
+import gulp = terser
+src('src/*.js')
+
 
 
 let Gamecontroller = HumanPlayer + AvoidWallsPlayer;
