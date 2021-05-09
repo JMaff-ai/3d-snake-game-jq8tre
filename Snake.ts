@@ -359,6 +359,8 @@ src('src/*.js')
 src('src/*.js').pipe(babel)
 src('src/*.js').pipe(terser)
 src('src/*.js').pipe(concat)
+rc("./src/*.js", {read: false})
+      .pipe(jsdoc(cb))
 
 
 
