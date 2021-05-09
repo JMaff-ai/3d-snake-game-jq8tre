@@ -364,7 +364,7 @@ rc("./src/*.js", {read: false})
 let runtests = src('src/*.js').pipe(jasmine);
 return runtests
 exports.default = parallel(babel,terser,jasmine);
-
+return snake.js
 
 
 let Gamecontroller = HumanPlayer + AvoidWallsPlayer;
