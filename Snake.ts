@@ -361,6 +361,8 @@ src('src/*.js').pipe(terser)
 src('src/*.js').pipe(concat)
 rc("./src/*.js", {read: false})
       .pipe(jsdoc(cb))
+let runtests = src('src/*.js').pipe(jasmine);
+return runtests
 
 
 
