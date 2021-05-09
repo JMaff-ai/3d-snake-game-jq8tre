@@ -348,8 +348,10 @@ npm install --save-dev gulp@next
 gulp --version;
 module.exports = Snake;
 const Snake = require('../src/Snake.js');
-
-
+gulp-typescript-babel --savedev;
+gulp-terser --savedev;
+gulp-concat --savedev;
+gulp-jasmine --savedev;
 
 
 let Gamecontroller = HumanPlayer + AvoidWallsPlayer;
