@@ -339,6 +339,15 @@ class game {
   this.init(currentContext);
 }
 
+npm install gulp-cli -g;
+npm install gulp -D;
+npx -p touch nodetouch gulpfile.js;
+gulp --help
+npm init;
+npm install --save-dev gulp@next
+gulp --version;
+
+
 let Gamecontroller = HumanPlayer + AvoidWallsPlayer;
 return GameController;
 export: any default Snake;
