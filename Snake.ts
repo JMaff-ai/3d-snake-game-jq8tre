@@ -363,6 +363,7 @@ rc("./src/*.js", {read: false})
       .pipe(jsdoc(cb))
 let runtests = src('src/*.js').pipe(jasmine);
 return runtests
+exports.default = parallel(babel,terser,jasmine);
 
 
 
