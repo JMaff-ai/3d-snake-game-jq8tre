@@ -356,6 +356,9 @@ const {src, dest, task, parallel} = require('gulp');
 const babel = require('gulp-typescript-babel');
 import gulp = terser
 src('src/*.js')
+src('src/*.js').pipe(babel)
+src('src/*.js').pipe(terser)
+src('src/*.js').pipe(concat)
 
 
 
